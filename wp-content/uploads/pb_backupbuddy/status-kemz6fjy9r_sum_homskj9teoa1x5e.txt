@@ -1,0 +1,852 @@
+{"event":"details","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"BackupBuddy v7.2.2.1 using WordPress v4.6.3 on Linux."}
+{"event":"details","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"Calculated archive file: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_backups\/backup-www_nikkawhisky_eu-2017_02_14-10_50am-full-kemz6fjy9r.zip`."}
+{"event":"startFunction","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"{\"function\":\"pre_backup\",\"title\":\"Getting ready to backup\"}"}
+{"event":"details","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"Performing pre-backup procedures."}
+{"event":"message","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"Full backup mode."}
+{"event":"details","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"Flushing will not be skipped (default)."}
+{"event":"details","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"Verifying directories ..."}
+{"event":"details","time":1487069451,"u":"68","run":"0.67","mem":"23.12","data":"Temporary directory invalid. Updating from `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/` to default."}
+{"event":"details","time":1487069451,"u":"69","run":"0.67","mem":"23.14","data":"Directories verified."}
+{"event":"details","time":1487069451,"u":"69","run":"0.67","mem":"23.14","data":"Backup serial generated: `kemz6fjy9r`."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.14","data":"About to load fileoptions data in create mode."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.15","data":"Fileoptions instance #40."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.15","data":"Created fileoptions lock file `kemz6fjy9r.txt.lock` with ID: 58a2d2fba99e29.79328220."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.15","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.15","data":"Fileoptions data loaded."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.15","data":"Updating statistics for last backup start."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.16","data":"Active WordPress plugins (11): `backupbuddy\/backupbuddy.php; contact-form-7-to-database-extension\/contact-form-7-db.php; contact-form-7\/wp-contact-form-7.php; content-warning-v2\/content-warning-v2.php; duplicate-post\/duplicate-post.php; elfsight-instashow\/elfsight-instashow.php; js_composer\/js_composer.php; redirection\/redirection.php; sitepress-multilingual-cms\/sitepress.php; wordpress-seo\/wp-seo.php; wpml-string-translation\/plugin.php`."}
+{"event":"startSubFunction","time":1487069451,"u":"69","run":"0.68","mem":"23.16","data":"{\"function\":\"wp_plugins_found\",\"title\":\"Found 11 active WordPress plugins.\"}"}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.16","data":"Initially calculated relative backup storage directory: `\/wp-content\/uploads\/backupbuddy_backups\/."}
+{"event":"details","time":1487069451,"u":"69","run":"0.68","mem":"23.16","data":"Initial directory exclusions (after filter): `\/.sucuriquarantine\/; \/wp-content\/uploads\/sucuri\/; \/wp-content\/envato-backups\/; \/wp-content\/uploads\/backwpup; \/wp-content\/backup-db\/; \/wp-snapshots\/; \/wp-content\/ai1wm-backups\/; \/wp-content\/plugins\/wordfence\/tmp\/; \/wp-content\/cache\/supercache\/; \/error_log; \/wp-content\/uploads\/backupbuddy_backups\/; \/wp-content\/uploads\/pb_backupbuddy\/; \/importbuddy\/; \/importbuddy.php`."}
+{"event":"startSubFunction","time":1487069451,"u":"70","run":"0.68","mem":"23.17","data":"{\"function\":\"file_excludes\",\"title\":\"Found 14 file or directory exclusions.\"}"}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.17","data":"Temp directory: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/`."}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.17","data":"Backup root: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/`."}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.17","data":"wp-config.php found in normal location."}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.17","data":"Calculating mysql database tables to backup."}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.17","data":"Base database dump mode (before inclusions\/exclusions): `prefix`."}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.17","data":"Determining database tables with prefix `wp_`."}
+{"event":"startAction","time":1487069451,"u":"70","run":"0.69","mem":"23.17","data":"schemaTables"}
+{"event":"finishAction","time":1487069451,"u":"70","run":"0.69","mem":"23.19","data":"schemaTables"}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.18","data":"Base database tables based on settings (39 tables): `wp_cf7dbplugin_st,wp_cf7dbplugin_submits,wp_commentmeta,wp_comments,wp_elfsight_instashow_widgets,wp_icl_content_status,wp_icl_core_status,wp_icl_flags,wp_icl_languages,wp_icl_languages_translations,wp_icl_locale_map,wp_icl_message_status,wp_icl_node,wp_icl_reminders,wp_icl_string_pages,wp_icl_string_positions,wp_icl_string_status,wp_icl_string_translations,wp_icl_string_urls,wp_icl_strings,wp_icl_translate,wp_icl_translate_job,wp_icl_translation_batches,wp_icl_translation_status,wp_icl_translations,wp_links,wp_options,wp_postmeta,wp_posts,wp_redirection_404,wp_redirection_groups,wp_redirection_items,wp_redirection_logs,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.18","data":"Database tables after addition (39 tables): `wp_cf7dbplugin_st,wp_cf7dbplugin_submits,wp_commentmeta,wp_comments,wp_elfsight_instashow_widgets,wp_icl_content_status,wp_icl_core_status,wp_icl_flags,wp_icl_languages,wp_icl_languages_translations,wp_icl_locale_map,wp_icl_message_status,wp_icl_node,wp_icl_reminders,wp_icl_string_pages,wp_icl_string_positions,wp_icl_string_status,wp_icl_string_translations,wp_icl_string_urls,wp_icl_strings,wp_icl_translate,wp_icl_translate_job,wp_icl_translation_batches,wp_icl_translation_status,wp_icl_translations,wp_links,wp_options,wp_postmeta,wp_posts,wp_redirection_404,wp_redirection_groups,wp_redirection_items,wp_redirection_logs,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"details","time":1487069451,"u":"70","run":"0.69","mem":"23.18","data":"Database tables after exclusion (39 tables): `wp_cf7dbplugin_st,wp_cf7dbplugin_submits,wp_commentmeta,wp_comments,wp_elfsight_instashow_widgets,wp_icl_content_status,wp_icl_core_status,wp_icl_flags,wp_icl_languages,wp_icl_languages_translations,wp_icl_locale_map,wp_icl_message_status,wp_icl_node,wp_icl_reminders,wp_icl_string_pages,wp_icl_string_positions,wp_icl_string_status,wp_icl_string_translations,wp_icl_string_urls,wp_icl_strings,wp_icl_translate,wp_icl_translate_job,wp_icl_translation_batches,wp_icl_translation_status,wp_icl_translations,wp_links,wp_options,wp_postmeta,wp_posts,wp_redirection_404,wp_redirection_groups,wp_redirection_items,wp_redirection_logs,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"startSubFunction","time":1487069451,"u":"70","run":"0.69","mem":"23.18","data":"{\"function\":\"calculate_tables\",\"title\":\"Found 39 tables to backup based on settings.\",\"more\":\"Tables: wp_cf7dbplugin_st, wp_cf7dbplugin_submits, wp_commentmeta, wp_comments, wp_elfsight_instashow_widgets, wp_icl_content_status, wp_icl_core_status, wp_icl_flags, wp_icl_languages, wp_icl_languages_translations, wp_icl_locale_map, wp_icl_message_status, wp_icl_node, wp_icl_reminders, wp_icl_string_pages, wp_icl_string_positions, wp_icl_string_status, wp_icl_string_translations, wp_icl_string_urls, wp_icl_strings, wp_icl_translate, wp_icl_translate_job, wp_icl_translation_batches, wp_icl_translation_status, wp_icl_translations, wp_links, wp_options, wp_postmeta, wp_posts, wp_redirection_404, wp_redirection_groups, wp_redirection_items, wp_redirection_logs, wp_term_relationships, wp_term_taxonomy, wp_termmeta, wp_terms, wp_usermeta, wp_users\"}"}
+{"event":"details","time":1487069451,"u":"88","run":"0.87","mem":"23.31","data":"Total calculated database size: `29.55 MB`."}
+{"event":"details","time":1487069451,"u":"88","run":"0.87","mem":"23.31","data":"Breaking out tables ENABLED based on settings. Tables to be broken out into individual steps: `wp_posts, wp_postmeta`."}
+{"event":"details","time":1487069451,"u":"89","run":"0.87","mem":"23.31","data":"Integrity check will be performed based on settings for this profile."}
+{"event":"details","time":1487069451,"u":"89","run":"0.88","mem":"23.33","data":"Fileoptions `kemz6fjy9r.txt` saved. 8180 bytes written."}
+{"event":"details","time":1487069451,"u":"89","run":"0.88","mem":"23.32","data":"Creating DAT (data) file snapshotting site & backup information."}
+{"event":"details","time":1487069451,"u":"89","run":"0.88","mem":"23.32","data":"wp-config.php found in normal location."}
+{"event":"startSubFunction","time":1487069451,"u":"89","run":"0.88","mem":"23.20","data":"{\"function\":\"post_count\",\"title\":\"Found 5 posts, 23 pages, and 0 comments.\"}"}
+{"event":"startSubFunction","time":1487069451,"u":"89","run":"0.88","mem":"23.20","data":"{\"function\":\"post_count\",\"title\":\"Found 4 user accounts.\"}"}
+{"event":"details","time":1487069451,"u":"89","run":"0.88","mem":"23.21","data":"DAT file contents (sans database user\/pass): Array; (;     [backupbuddy_version] => 7.2.2.1;     [wordpress_version] => 4.6.3;     [backup_time] => 1487065851;     [backup_type] => full;     [profile] => Array;         (;             [type] => full;             [title] => Complete Backup;             [skip_database_dump] => 0;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [backup_nonwp_tables] => 0;             [excludes] => ;             [integrity_check] => 1;             [profile_globaltables] => 1;             [profile_globalexcludes] => 1;             [backup_mode] => 2;         ); ;     [default_profile] => Array;         (;             [type] => defaults;             [title] => Global Defaults;             [skip_database_dump] => 0;             [backup_nonwp_tables] => 0;             [integrity_check] => 1;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [excludes] => ;         ); ;     [serial] => kemz6fjy9r;     [trigger] => manual;     [wp-config_in_parent] => ;     [deployment_direction] => ;     [abspath] => \/data\/www\/lmdw\/nikkawhisky_eu\/prod\/;     [siteurl] => http:\/\/www.nikkawhisky.eu;     [homeurl] => http:\/\/www.nikkawhisky.eu;     [blogname] => Nikka Whisky Europe;     [blogdescription] => ;     [active_plugins] => backupbuddy\/backupbuddy.php, contact-form-7-to-database-extension\/contact-form-7-db.php, contact-form-7\/wp-contact-form-7.php, content-warning-v2\/content-warning-v2.php, duplicate-post\/duplicate-post.php, elfsight-instashow\/elfsight-instashow.php, js_composer\/js_composer.php, redirection\/redirection.php, sitepress-multilingual-cms\/sitepress.php, wordpress-seo\/wp-seo.php, wpml-string-translation\/plugin.php;     [posts] => 5;     [pages] => 23;     [comments] => 0;     [users] => 4;     [wp_content_url] => http:\/\/www.nikkawhisky.eu\/wp-content;     [wp_content_dir] => \/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content;     [db_charset] => utf8mb4;     [db_collate] => utf8mb4_unicode_520_ci;     [db_prefix] => wp_;     [db_server] => 10.1.144.1;     [db_name] => nikkawhisky_eu_prod;     [db_user] => ;     [db_password] => ;     [db_exclusions] => ;     [db_inclusions] => ;     [db_version] => 5.6.16;     [breakout_tables] => Array;         (;             [0] => wp_posts;             [1] => wp_postmeta;         ); ;     [tables_sizes] => Array;         (;             [wp_cf7dbplugin_st] => 16384;             [wp_cf7dbplugin_submits] => 458752;             [wp_commentmeta] => 49152;             [wp_comments] => 98304;             [wp_elfsight_instashow_widgets] => 6216;             [wp_icl_content_status] => 32768;             [wp_icl_core_status] => 32768;             [wp_icl_flags] => 32768;             [wp_icl_languages] => 49152;             [wp_icl_languages_translations] => 311296;             [wp_icl_locale_map] => 16384;             [wp_icl_message_status] => 49152;             [wp_icl_node] => 16384;             [wp_icl_reminders] => 16384;             [wp_icl_string_pages] => 114688;             [wp_icl_string_positions] => 32768;             [wp_icl_string_status] => 32768;             [wp_icl_string_translations] => 32768;             [wp_icl_string_urls] => 32768;             [wp_icl_strings] => 81920;             [wp_icl_translate] => 32768;             [wp_icl_translate_job] => 32768;             [wp_icl_translation_batches] => 16384;             [wp_icl_translation_status] => 32768;             [wp_icl_translations] => 81920;             [wp_links] => 32768;             [wp_options] => 2277376;             [wp_postmeta] => 1966080;             [wp_posts] => 22888448;             [wp_redirection_404] => 1327104;             [wp_redirection_groups] => 49152;             [wp_redirection_items] => 311296;             [wp_redirection_logs] => 98304;             [wp_term_relationships] => 32768;             [wp_term_taxonomy] => 49152;             [wp_termmeta] => 49152;             [wp_terms] => 49152;             [wp_usermeta] => 81920;             [wp_users] => 65536;         ); ;     [force_single_db_file] => ;     [skip_database_dump] => 0;     [is_multisite] => ;     [is_multisite_export] => ;     [domain] => ;     [path] => ;     [upload_url] => ;     [upload_url_rewrite] => ; ); "}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.21","data":"Finished creating DAT (data) file."}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"Generating ImportBuddy tool to include in backup archive: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/importbuddy.php`."}
+{"event":"startAction","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"importbuddyCreation"}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"Reported PHP execution time - Configured: 30; Original: 600; Current: 600"}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (512M) or over-ridden value"}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"Reported PHP memory limits - Configured: 512M; Original: 512M; Current: 512M"}
+{"event":"warning","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"Warning #9032 - You have not set an ImportBuddy password on the BackupBuddy Settings page. Once this password is set a copy of the importbuddy.php file needed to restore your backup will be included in Full backup zip files for convenience. It may manually be downloaded from the Restore \/ Migrate page."}
+{"event":"finishAction","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"importbuddyCreation"}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.20","data":"ImportBuddy generation complete."}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.19","data":"Deleting malware transient."}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.21","data":"Fileoptions `kemz6fjy9r.txt` saved. 8360 bytes written."}
+{"event":"details","time":1487069451,"u":"90","run":"0.89","mem":"23.19","data":"Finished pre-backup procedures."}
+{"event":"milestone","time":1487069451,"u":"91","run":"0.89","mem":"23.19","data":"finish_settings"}
+{"event":"finishFunction","time":1487069451,"u":"91","run":"0.90","mem":"23.19","data":"{\"function\":\"pre_backup\"}"}
+{"event":"message","time":1487069451,"u":"91","run":"0.90","mem":"23.19","data":"Running in modern backup mode based on settings. Mode value: `2`. Trigger: `manual`."}
+{"event":"warnings","time":1487069451,"u":"91","run":"0.90","mem":"23.18","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1487069451,"u":"91","run":"0.90","mem":"23.18","data":"Scheduling Cron for `kemz6fjy9r`."}
+{"event":"details","time":1487069451,"u":"91","run":"0.90","mem":"23.19","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1487069451,"u":"91","run":"0.90","mem":"23.19","data":"Pinging mysql."}
+{"event":"details","time":1487069451,"u":"91","run":"0.90","mem":"23.19","data":"Database Server connection status verified."}
+{"event":"details","time":1487069451,"u":"91","run":"0.90","mem":"23.19","data":"Scheduling next step to run at `1487065696` (localized time: Feb 14, 2017 10:48:16 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `kemz6fjy9r`."}
+{"event":"details","time":1487069451,"u":"92","run":"0.91","mem":"23.20","data":"Next step scheduled."}
+{"event":"startAction","time":1487069451,"u":"92","run":"0.91","mem":"23.20","data":"cronPass"}
+{"event":"cronParams","time":1487069451,"u":"92","run":"0.91","mem":"23.20","data":"eyJ0aW1lIjoxNDg3MDY1Njk2LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbImtlbXo2Zmp5OXIiXX0="}
+{"event":"details","time":1487069451,"u":"92","run":"0.91","mem":"23.19","data":"Not calling spawn_cron()."}
+{"event":"details","time":1487069451,"u":"92","run":"0.91","mem":"23.19","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1487069453,"u":"19","run":"0.31","mem":"20.32","data":"--- New PHP process."}
+{"event":"details","time":1487069453,"u":"19","run":"0.31","mem":"20.32","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1487069453,"u":"19","run":"0.31","mem":"20.32","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1487069453,"u":"19","run":"0.31","mem":"20.32","data":"Reported PHP execution time - Configured: 30; Original: 600; Current: 600"}
+{"event":"details","time":1487069453,"u":"19","run":"0.31","mem":"20.32","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (512M) or over-ridden value"}
+{"event":"details","time":1487069453,"u":"20","run":"0.31","mem":"20.32","data":"Reported PHP memory limits - Configured: 512M; Original: 512M; Current: 512M"}
+{"event":"message","time":1487069453,"u":"20","run":"0.31","mem":"20.32","data":"Running process for serial `kemz6fjy9r`..."}
+{"event":"details","time":1487069453,"u":"20","run":"0.32","mem":"20.50","data":"About to load fileoptions data for serial `kemz6fjy9r`."}
+{"event":"details","time":1487069453,"u":"20","run":"0.32","mem":"20.50","data":"Fileoptions instance #39."}
+{"event":"details","time":1487069453,"u":"20","run":"0.32","mem":"20.51","data":"Created fileoptions lock file `kemz6fjy9r.txt.lock` with ID: 58a2d2fd3236b5.06554472."}
+{"event":"details","time":1487069453,"u":"20","run":"0.32","mem":"20.54","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1487069453,"u":"20","run":"0.32","mem":"20.54","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1487069453,"u":"20","run":"0.32","mem":"20.54","data":"cronPass"}
+{"event":"details","time":1487069453,"u":"20","run":"0.32","mem":"20.56","data":"Fileoptions `kemz6fjy9r.txt` saved. 8380 bytes written."}
+{"event":"details","time":1487069453,"u":"20","run":"0.32","mem":"20.55","data":"Found next step to run: `backup_create_database_dump`."}
+{"event":"details","time":1487069453,"u":"21","run":"0.32","mem":"20.55","data":"Peak memory usage: 20.661 MB"}
+{"event":"details","time":1487069453,"u":"21","run":"0.32","mem":"20.55","data":"-----"}
+{"event":"details","time":1487069453,"u":"21","run":"0.32","mem":"20.55","data":"Starting step function `backup_create_database_dump`. Attempt #1."}
+{"event":"startFunction","time":1487069453,"u":"21","run":"0.32","mem":"20.55","data":"{\"function\":\"backup_create_database_dump\",\"title\":\"Backing up database\"}"}
+{"event":"milestone","time":1487069453,"u":"21","run":"0.32","mem":"20.55","data":"start_database"}
+{"event":"message","time":1487069453,"u":"21","run":"0.32","mem":"20.55","data":"Starting database backup process."}
+{"event":"details","time":1487069453,"u":"21","run":"0.33","mem":"20.57","data":"PHP-based mysqldump (if applicable) max rows per select set to 1000."}
+{"event":"details","time":1487069453,"u":"21","run":"0.33","mem":"20.57","data":"Database host for dumping: `10.1.144.1`"}
+{"event":"details","time":1487069453,"u":"21","run":"0.33","mem":"20.57","data":"Loading mysqlbuddy library."}
+{"event":"details","time":1487069453,"u":"21","run":"0.33","mem":"20.57","data":"Mysql server default directories: `\/usr\/bin\/,\/usr\/bin\/mysql\/,\/usr\/local\/bin\/`"}
+{"event":"details","time":1487069453,"u":"21","run":"0.33","mem":"20.57","data":"mysqlbuddy: Force method of `1` passed."}
+{"event":"message","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"mysqlbuddy: Settings overriding automatic detection of available database dump methods. Using forced override methods: `php`."}
+{"event":"message","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"mysqlbuddy: Detected database dump methods: `php`."}
+{"event":"details","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"If applicable, breaking up with max execution time `134` seconds."}
+{"event":"details","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"This server's mysql version: `5.6.16`."}
+{"event":"milestone","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"start_database"}
+{"event":"message","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"Starting database dump procedure."}
+{"event":"details","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"mysqlbuddy: Output directory: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/`."}
+{"event":"details","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"Table dump count: `37`."}
+{"event":"details","time":1487069453,"u":"22","run":"0.33","mem":"20.57","data":"Preparing to dump using available method(s) by priority. Methods: `php`"}
+{"event":"details","time":1487069453,"u":"22","run":"0.34","mem":"20.57","data":"mysqlbuddy: Attempting dump method `php`."}
+{"event":"details","time":1487069453,"u":"22","run":"0.34","mem":"20.58","data":"Loading DB kicker for use leter in case database goes away."}
+{"event":"details","time":1487069453,"u":"22","run":"0.34","mem":"20.58","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1487069453,"u":"22","run":"0.34","mem":"20.59","data":"Dumping database table `wp_cf7dbplugin_st`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"22","run":"0.34","mem":"20.59","data":"wp_cf7dbplugin_st"}
+{"event":"details","time":1487069453,"u":"22","run":"0.34","mem":"20.59","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_cf7dbplugin_st.sql`."}
+{"event":"details","time":1487069453,"u":"22","run":"0.34","mem":"20.59","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"22","run":"0.34","mem":"20.59","data":"wp_cf7dbplugin_st.sql"}
+{"event":"details","time":1487069453,"u":"24","run":"0.35","mem":"20.79","data":"Got `220` rows from `wp_cf7dbplugin_st` of `1000` max."}
+{"event":"details","time":1487069453,"u":"24","run":"0.36","mem":"20.79","data":"Dumped `220` rows total from `wp_cf7dbplugin_st`. No rows remain."}
+{"event":"details","time":1487069453,"u":"24","run":"0.36","mem":"20.79","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"24","run":"0.36","mem":"20.79","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"25","run":"0.36","mem":"20.79","data":"Finished dumping database table `wp_cf7dbplugin_st`."}
+{"event":"finishTableDump","time":1487069453,"u":"25","run":"0.36","mem":"20.79","data":"wp_cf7dbplugin_st"}
+{"event":"details","time":1487069453,"u":"25","run":"0.36","mem":"20.80","data":"Database SQL dump file (wp_cf7dbplugin_st.sql) size: 13 KB"}
+{"event":"sqlSize","time":1487069453,"u":"25","run":"0.36","mem":"20.80","data":"13237"}
+{"event":"details","time":1487069453,"u":"25","run":"0.36","mem":"20.80","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"25","run":"0.36","mem":"20.80","data":"Dumping database table `wp_cf7dbplugin_submits`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"25","run":"0.37","mem":"20.80","data":"wp_cf7dbplugin_submits"}
+{"event":"details","time":1487069453,"u":"25","run":"0.37","mem":"20.80","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_cf7dbplugin_submits.sql`."}
+{"event":"details","time":1487069453,"u":"25","run":"0.37","mem":"20.80","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"25","run":"0.37","mem":"20.80","data":"wp_cf7dbplugin_submits.sql"}
+{"event":"details","time":1487069453,"u":"31","run":"0.43","mem":"22.66","data":"Got `1000` rows from `wp_cf7dbplugin_submits` of `1000` max."}
+{"event":"details","time":1487069453,"u":"34","run":"0.45","mem":"22.68","data":"Working... Dumped `500` rows from `wp_cf7dbplugin_submits` so far."}
+{"event":"details","time":1487069453,"u":"36","run":"0.47","mem":"22.68","data":"Working... Dumped `1000` rows from `wp_cf7dbplugin_submits` so far."}
+{"event":"details","time":1487069453,"u":"36","run":"0.48","mem":"22.68","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"36","run":"0.48","mem":"22.68","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"44","run":"0.56","mem":"22.05","data":"Got `698` rows from `wp_cf7dbplugin_submits` of `1000` max."}
+{"event":"details","time":1487069453,"u":"46","run":"0.58","mem":"22.06","data":"Working... Dumped `1500` rows from `wp_cf7dbplugin_submits` so far."}
+{"event":"details","time":1487069453,"u":"47","run":"0.59","mem":"22.06","data":"Dumped `1698` rows total from `wp_cf7dbplugin_submits`. No rows remain."}
+{"event":"details","time":1487069453,"u":"47","run":"0.59","mem":"22.06","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"47","run":"0.59","mem":"22.06","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"48","run":"0.59","mem":"22.06","data":"Finished dumping database table `wp_cf7dbplugin_submits`."}
+{"event":"finishTableDump","time":1487069453,"u":"48","run":"0.59","mem":"22.06","data":"wp_cf7dbplugin_submits"}
+{"event":"details","time":1487069453,"u":"48","run":"0.59","mem":"22.06","data":"Database SQL dump file (wp_cf7dbplugin_submits.sql) size: 260 KB"}
+{"event":"sqlSize","time":1487069453,"u":"48","run":"0.59","mem":"22.06","data":"266662"}
+{"event":"details","time":1487069453,"u":"48","run":"0.59","mem":"22.06","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"48","run":"0.59","mem":"22.06","data":"Dumping database table `wp_commentmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"48","run":"0.59","mem":"22.06","data":"wp_commentmeta"}
+{"event":"details","time":1487069453,"u":"48","run":"0.60","mem":"22.06","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_commentmeta.sql`."}
+{"event":"details","time":1487069453,"u":"48","run":"0.60","mem":"22.06","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"48","run":"0.60","mem":"22.06","data":"wp_commentmeta.sql"}
+{"event":"details","time":1487069453,"u":"48","run":"0.60","mem":"20.60","data":"Got `0` rows from `wp_commentmeta` of `1000` max."}
+{"event":"details","time":1487069453,"u":"48","run":"0.60","mem":"20.61","data":"Dumped `0` rows total from `wp_commentmeta`. No rows remain."}
+{"event":"details","time":1487069453,"u":"49","run":"0.60","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"49","run":"0.60","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"49","run":"0.60","mem":"20.61","data":"Finished dumping database table `wp_commentmeta`."}
+{"event":"finishTableDump","time":1487069453,"u":"49","run":"0.60","mem":"20.61","data":"wp_commentmeta"}
+{"event":"details","time":1487069453,"u":"49","run":"0.60","mem":"20.61","data":"Database SQL dump file (wp_commentmeta.sql) size: 531 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"49","run":"0.60","mem":"20.61","data":"531"}
+{"event":"details","time":1487069453,"u":"49","run":"0.60","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"49","run":"0.61","mem":"20.61","data":"Dumping database table `wp_comments`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"49","run":"0.61","mem":"20.61","data":"wp_comments"}
+{"event":"details","time":1487069453,"u":"49","run":"0.61","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_comments.sql`."}
+{"event":"details","time":1487069453,"u":"49","run":"0.61","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"49","run":"0.61","mem":"20.61","data":"wp_comments.sql"}
+{"event":"details","time":1487069453,"u":"49","run":"0.61","mem":"20.61","data":"Got `0` rows from `wp_comments` of `1000` max."}
+{"event":"details","time":1487069453,"u":"49","run":"0.61","mem":"20.64","data":"Dumped `0` rows total from `wp_comments`. No rows remain."}
+{"event":"details","time":1487069453,"u":"49","run":"0.61","mem":"20.64","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"50","run":"0.61","mem":"20.64","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"50","run":"0.61","mem":"20.64","data":"Finished dumping database table `wp_comments`."}
+{"event":"finishTableDump","time":1487069453,"u":"50","run":"0.61","mem":"20.64","data":"wp_comments"}
+{"event":"details","time":1487069453,"u":"50","run":"0.61","mem":"20.64","data":"Database SQL dump file (wp_comments.sql) size: 1 KB"}
+{"event":"sqlSize","time":1487069453,"u":"50","run":"0.61","mem":"20.64","data":"1515"}
+{"event":"details","time":1487069453,"u":"50","run":"0.61","mem":"20.64","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"50","run":"0.61","mem":"20.64","data":"Dumping database table `wp_elfsight_instashow_widgets`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"50","run":"0.62","mem":"20.64","data":"wp_elfsight_instashow_widgets"}
+{"event":"details","time":1487069453,"u":"50","run":"0.62","mem":"20.64","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_elfsight_instashow_widgets.sql`."}
+{"event":"details","time":1487069453,"u":"50","run":"0.62","mem":"20.64","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"50","run":"0.62","mem":"20.64","data":"wp_elfsight_instashow_widgets.sql"}
+{"event":"details","time":1487069453,"u":"50","run":"0.62","mem":"20.61","data":"Got `2` rows from `wp_elfsight_instashow_widgets` of `1000` max."}
+{"event":"details","time":1487069453,"u":"50","run":"0.62","mem":"20.62","data":"Dumped `2` rows total from `wp_elfsight_instashow_widgets`. No rows remain."}
+{"event":"details","time":1487069453,"u":"50","run":"0.62","mem":"20.62","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"50","run":"0.62","mem":"20.62","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"51","run":"0.62","mem":"20.62","data":"Finished dumping database table `wp_elfsight_instashow_widgets`."}
+{"event":"finishTableDump","time":1487069453,"u":"51","run":"0.62","mem":"20.62","data":"wp_elfsight_instashow_widgets"}
+{"event":"details","time":1487069453,"u":"51","run":"0.62","mem":"20.62","data":"Database SQL dump file (wp_elfsight_instashow_widgets.sql) size: 5 KB"}
+{"event":"sqlSize","time":1487069453,"u":"51","run":"0.62","mem":"20.62","data":"5312"}
+{"event":"details","time":1487069453,"u":"51","run":"0.62","mem":"20.62","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"51","run":"0.62","mem":"20.62","data":"Dumping database table `wp_icl_content_status`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"51","run":"0.62","mem":"20.62","data":"wp_icl_content_status"}
+{"event":"details","time":1487069453,"u":"51","run":"0.63","mem":"20.62","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_content_status.sql`."}
+{"event":"details","time":1487069453,"u":"51","run":"0.63","mem":"20.62","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"51","run":"0.63","mem":"20.62","data":"wp_icl_content_status.sql"}
+{"event":"details","time":1487069453,"u":"53","run":"0.65","mem":"20.60","data":"Got `0` rows from `wp_icl_content_status` of `1000` max."}
+{"event":"details","time":1487069453,"u":"53","run":"0.65","mem":"20.61","data":"Dumped `0` rows total from `wp_icl_content_status`. No rows remain."}
+{"event":"details","time":1487069453,"u":"53","run":"0.65","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"53","run":"0.65","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"53","run":"0.65","mem":"20.61","data":"Finished dumping database table `wp_icl_content_status`."}
+{"event":"finishTableDump","time":1487069453,"u":"53","run":"0.65","mem":"20.61","data":"wp_icl_content_status"}
+{"event":"details","time":1487069453,"u":"53","run":"0.65","mem":"20.61","data":"Database SQL dump file (wp_icl_content_status.sql) size: 414 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"54","run":"0.65","mem":"20.61","data":"414"}
+{"event":"details","time":1487069453,"u":"54","run":"0.65","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"54","run":"0.65","mem":"20.61","data":"Dumping database table `wp_icl_core_status`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"54","run":"0.65","mem":"20.61","data":"wp_icl_core_status"}
+{"event":"details","time":1487069453,"u":"54","run":"0.65","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_core_status.sql`."}
+{"event":"details","time":1487069453,"u":"54","run":"0.65","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"54","run":"0.65","mem":"20.61","data":"wp_icl_core_status.sql"}
+{"event":"details","time":1487069453,"u":"54","run":"0.66","mem":"20.60","data":"Got `0` rows from `wp_icl_core_status` of `1000` max."}
+{"event":"details","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"Dumped `0` rows total from `wp_icl_core_status`. No rows remain."}
+{"event":"details","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"Finished dumping database table `wp_icl_core_status`."}
+{"event":"finishTableDump","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"wp_icl_core_status"}
+{"event":"details","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"Database SQL dump file (wp_icl_core_status.sql) size: 539 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"539"}
+{"event":"details","time":1487069453,"u":"54","run":"0.66","mem":"20.62","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"55","run":"0.66","mem":"20.62","data":"Dumping database table `wp_icl_flags`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"55","run":"0.66","mem":"20.62","data":"wp_icl_flags"}
+{"event":"details","time":1487069453,"u":"55","run":"0.66","mem":"20.62","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_flags.sql`."}
+{"event":"details","time":1487069453,"u":"55","run":"0.66","mem":"20.62","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"55","run":"0.66","mem":"20.62","data":"wp_icl_flags.sql"}
+{"event":"details","time":1487069453,"u":"55","run":"0.67","mem":"20.70","data":"Got `63` rows from `wp_icl_flags` of `1000` max."}
+{"event":"details","time":1487069453,"u":"55","run":"0.67","mem":"20.71","data":"Dumped `63` rows total from `wp_icl_flags`. No rows remain."}
+{"event":"details","time":1487069453,"u":"55","run":"0.67","mem":"20.71","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"55","run":"0.67","mem":"20.71","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"55","run":"0.67","mem":"20.71","data":"Finished dumping database table `wp_icl_flags`."}
+{"event":"finishTableDump","time":1487069453,"u":"55","run":"0.67","mem":"20.71","data":"wp_icl_flags"}
+{"event":"details","time":1487069453,"u":"56","run":"0.67","mem":"20.71","data":"Database SQL dump file (wp_icl_flags.sql) size: 4 KB"}
+{"event":"sqlSize","time":1487069453,"u":"56","run":"0.67","mem":"20.71","data":"4416"}
+{"event":"details","time":1487069453,"u":"56","run":"0.67","mem":"20.71","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"56","run":"0.67","mem":"20.71","data":"Dumping database table `wp_icl_languages`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"56","run":"0.67","mem":"20.71","data":"wp_icl_languages"}
+{"event":"details","time":1487069453,"u":"56","run":"0.67","mem":"20.71","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_languages.sql`."}
+{"event":"details","time":1487069453,"u":"56","run":"0.67","mem":"20.71","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"56","run":"0.68","mem":"20.71","data":"wp_icl_languages.sql"}
+{"event":"details","time":1487069453,"u":"56","run":"0.68","mem":"20.76","data":"Got `63` rows from `wp_icl_languages` of `1000` max."}
+{"event":"details","time":1487069453,"u":"57","run":"0.68","mem":"20.78","data":"Dumped `63` rows total from `wp_icl_languages`. No rows remain."}
+{"event":"details","time":1487069453,"u":"57","run":"0.68","mem":"20.78","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"57","run":"0.68","mem":"20.78","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"57","run":"0.68","mem":"20.78","data":"Finished dumping database table `wp_icl_languages`."}
+{"event":"finishTableDump","time":1487069453,"u":"57","run":"0.68","mem":"20.78","data":"wp_icl_languages"}
+{"event":"details","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"Database SQL dump file (wp_icl_languages.sql) size: 6 KB"}
+{"event":"sqlSize","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"6482"}
+{"event":"details","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"Dumping database table `wp_icl_languages_translations`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"wp_icl_languages_translations"}
+{"event":"details","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_languages_translations.sql`."}
+{"event":"details","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"57","run":"0.69","mem":"20.78","data":"wp_icl_languages_translations.sql"}
+{"event":"details","time":1487069453,"u":"61","run":"0.73","mem":"22.19","data":"Got `1000` rows from `wp_icl_languages_translations` of `1000` max."}
+{"event":"details","time":1487069453,"u":"63","run":"0.74","mem":"22.20","data":"Working... Dumped `500` rows from `wp_icl_languages_translations` so far."}
+{"event":"details","time":1487069453,"u":"64","run":"0.76","mem":"22.20","data":"Working... Dumped `1000` rows from `wp_icl_languages_translations` so far."}
+{"event":"details","time":1487069453,"u":"64","run":"0.76","mem":"22.20","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"64","run":"0.76","mem":"22.20","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"68","run":"0.79","mem":"22.20","data":"Got `1000` rows from `wp_icl_languages_translations` of `1000` max."}
+{"event":"details","time":1487069453,"u":"69","run":"0.81","mem":"22.21","data":"Working... Dumped `1500` rows from `wp_icl_languages_translations` so far."}
+{"event":"details","time":1487069453,"u":"71","run":"0.83","mem":"22.21","data":"Working... Dumped `2000` rows from `wp_icl_languages_translations` so far."}
+{"event":"details","time":1487069453,"u":"71","run":"0.83","mem":"22.21","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"71","run":"0.83","mem":"22.21","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"76","run":"0.87","mem":"22.20","data":"Got `1000` rows from `wp_icl_languages_translations` of `1000` max."}
+{"event":"details","time":1487069453,"u":"77","run":"0.89","mem":"22.21","data":"Working... Dumped `2500` rows from `wp_icl_languages_translations` so far."}
+{"event":"details","time":1487069453,"u":"79","run":"0.91","mem":"22.21","data":"Working... Dumped `3000` rows from `wp_icl_languages_translations` so far."}
+{"event":"details","time":1487069453,"u":"79","run":"0.91","mem":"22.21","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"79","run":"0.91","mem":"22.21","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"80","run":"0.92","mem":"22.15","data":"Got `969` rows from `wp_icl_languages_translations` of `1000` max."}
+{"event":"details","time":1487069453,"u":"82","run":"0.94","mem":"22.16","data":"Working... Dumped `3500` rows from `wp_icl_languages_translations` so far."}
+{"event":"details","time":1487069453,"u":"83","run":"0.95","mem":"22.16","data":"Dumped `3969` rows total from `wp_icl_languages_translations`. No rows remain."}
+{"event":"details","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"Finished dumping database table `wp_icl_languages_translations`."}
+{"event":"finishTableDump","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"wp_icl_languages_translations"}
+{"event":"details","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"Database SQL dump file (wp_icl_languages_translations.sql) size: 333 KB"}
+{"event":"sqlSize","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"341070"}
+{"event":"details","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"Dumping database table `wp_icl_locale_map`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"wp_icl_locale_map"}
+{"event":"details","time":1487069453,"u":"84","run":"0.95","mem":"22.16","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_locale_map.sql`."}
+{"event":"details","time":1487069453,"u":"84","run":"0.96","mem":"22.16","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"84","run":"0.96","mem":"22.16","data":"wp_icl_locale_map.sql"}
+{"event":"details","time":1487069453,"u":"84","run":"0.96","mem":"20.60","data":"Got `2` rows from `wp_icl_locale_map` of `1000` max."}
+{"event":"details","time":1487069453,"u":"84","run":"0.96","mem":"20.61","data":"Dumped `2` rows total from `wp_icl_locale_map`. No rows remain."}
+{"event":"details","time":1487069453,"u":"84","run":"0.96","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"84","run":"0.96","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"84","run":"0.96","mem":"20.61","data":"Finished dumping database table `wp_icl_locale_map`."}
+{"event":"finishTableDump","time":1487069453,"u":"84","run":"0.96","mem":"20.61","data":"wp_icl_locale_map"}
+{"event":"details","time":1487069453,"u":"84","run":"0.96","mem":"20.61","data":"Database SQL dump file (wp_icl_locale_map.sql) size: 479 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"85","run":"0.96","mem":"20.61","data":"479"}
+{"event":"details","time":1487069453,"u":"85","run":"0.96","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"85","run":"0.96","mem":"20.61","data":"Dumping database table `wp_icl_message_status`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"85","run":"0.96","mem":"20.61","data":"wp_icl_message_status"}
+{"event":"details","time":1487069453,"u":"85","run":"0.96","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_message_status.sql`."}
+{"event":"details","time":1487069453,"u":"85","run":"0.96","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"85","run":"0.96","mem":"20.61","data":"wp_icl_message_status.sql"}
+{"event":"details","time":1487069453,"u":"85","run":"0.96","mem":"20.60","data":"Got `0` rows from `wp_icl_message_status` of `1000` max."}
+{"event":"details","time":1487069453,"u":"85","run":"0.96","mem":"20.62","data":"Dumped `0` rows total from `wp_icl_message_status`. No rows remain."}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"Finished dumping database table `wp_icl_message_status`."}
+{"event":"finishTableDump","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"wp_icl_message_status"}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"Database SQL dump file (wp_icl_message_status.sql) size: 780 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"780"}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"Dumping database table `wp_icl_node`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"wp_icl_node"}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_node.sql`."}
+{"event":"details","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"85","run":"0.97","mem":"20.62","data":"wp_icl_node.sql"}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.60","data":"Got `0` rows from `wp_icl_node` of `1000` max."}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"Dumped `0` rows total from `wp_icl_node`. No rows remain."}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"Finished dumping database table `wp_icl_node`."}
+{"event":"finishTableDump","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"wp_icl_node"}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"Database SQL dump file (wp_icl_node.sql) size: 352 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"352"}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"Dumping database table `wp_icl_reminders`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"wp_icl_reminders"}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_reminders.sql`."}
+{"event":"details","time":1487069453,"u":"86","run":"0.98","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"87","run":"0.98","mem":"20.61","data":"wp_icl_reminders.sql"}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.60","data":"Got `0` rows from `wp_icl_reminders` of `1000` max."}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"Dumped `0` rows total from `wp_icl_reminders`. No rows remain."}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"Finished dumping database table `wp_icl_reminders`."}
+{"event":"finishTableDump","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"wp_icl_reminders"}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"Database SQL dump file (wp_icl_reminders.sql) size: 427 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"427"}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"Dumping database table `wp_icl_string_pages`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"wp_icl_string_pages"}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_string_pages.sql`."}
+{"event":"details","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"87","run":"0.99","mem":"20.61","data":"wp_icl_string_pages.sql"}
+{"event":"details","time":1487069453,"u":"88","run":"1.00","mem":"21.62","data":"Got `756` rows from `wp_icl_string_pages` of `1000` max."}
+{"event":"details","time":1487069453,"u":"89","run":"1.01","mem":"21.63","data":"Working... Dumped `500` rows from `wp_icl_string_pages` so far."}
+{"event":"details","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"Dumped `756` rows total from `wp_icl_string_pages`. No rows remain."}
+{"event":"details","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"Finished dumping database table `wp_icl_string_pages`."}
+{"event":"finishTableDump","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"wp_icl_string_pages"}
+{"event":"details","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"Database SQL dump file (wp_icl_string_pages.sql) size: 45 KB"}
+{"event":"sqlSize","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"45653"}
+{"event":"details","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"Dumping database table `wp_icl_string_positions`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"90","run":"1.01","mem":"21.63","data":"wp_icl_string_positions"}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"21.63","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_string_positions.sql`."}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"21.63","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"90","run":"1.02","mem":"21.63","data":"wp_icl_string_positions.sql"}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"20.60","data":"Got `0` rows from `wp_icl_string_positions` of `1000` max."}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"20.61","data":"Dumped `0` rows total from `wp_icl_string_positions`. No rows remain."}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"20.61","data":"Finished dumping database table `wp_icl_string_positions`."}
+{"event":"finishTableDump","time":1487069453,"u":"90","run":"1.02","mem":"20.61","data":"wp_icl_string_positions"}
+{"event":"details","time":1487069453,"u":"90","run":"1.02","mem":"20.61","data":"Database SQL dump file (wp_icl_string_positions.sql) size: 475 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"475"}
+{"event":"details","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"Dumping database table `wp_icl_string_status`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"wp_icl_string_status"}
+{"event":"details","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_string_status.sql`."}
+{"event":"details","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"wp_icl_string_status.sql"}
+{"event":"details","time":1487069453,"u":"91","run":"1.02","mem":"20.60","data":"Got `0` rows from `wp_icl_string_status` of `1000` max."}
+{"event":"details","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"Dumped `0` rows total from `wp_icl_string_status`. No rows remain."}
+{"event":"details","time":1487069453,"u":"91","run":"1.02","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"Finished dumping database table `wp_icl_string_status`."}
+{"event":"finishTableDump","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"wp_icl_string_status"}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"Database SQL dump file (wp_icl_string_status.sql) size: 542 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"542"}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"Dumping database table `wp_icl_string_translations`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"wp_icl_string_translations"}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_string_translations.sql`."}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"wp_icl_string_translations.sql"}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.61","data":"Got `3` rows from `wp_icl_string_translations` of `1000` max."}
+{"event":"details","time":1487069453,"u":"91","run":"1.03","mem":"20.63","data":"Dumped `3` rows total from `wp_icl_string_translations`. No rows remain."}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"Finished dumping database table `wp_icl_string_translations`."}
+{"event":"finishTableDump","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"wp_icl_string_translations"}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"Database SQL dump file (wp_icl_string_translations.sql) size: 2 KB"}
+{"event":"sqlSize","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"2493"}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"Dumping database table `wp_icl_string_urls`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"wp_icl_string_urls"}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_string_urls.sql`."}
+{"event":"details","time":1487069453,"u":"92","run":"1.03","mem":"20.63","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"92","run":"1.04","mem":"20.63","data":"wp_icl_string_urls.sql"}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.61","data":"Got `9` rows from `wp_icl_string_urls` of `1000` max."}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"Dumped `9` rows total from `wp_icl_string_urls`. No rows remain."}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"Finished dumping database table `wp_icl_string_urls`."}
+{"event":"finishTableDump","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"wp_icl_string_urls"}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"Database SQL dump file (wp_icl_string_urls.sql) size: 2 KB"}
+{"event":"sqlSize","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"1586"}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"Dumping database table `wp_icl_strings`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"wp_icl_strings"}
+{"event":"details","time":1487069453,"u":"92","run":"1.04","mem":"20.62","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_strings.sql`."}
+{"event":"details","time":1487069453,"u":"93","run":"1.04","mem":"20.62","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"93","run":"1.04","mem":"20.62","data":"wp_icl_strings.sql"}
+{"event":"details","time":1487069453,"u":"93","run":"1.04","mem":"20.96","data":"Got `105` rows from `wp_icl_strings` of `1000` max."}
+{"event":"details","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"Dumped `105` rows total from `wp_icl_strings`. No rows remain."}
+{"event":"details","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"Finished dumping database table `wp_icl_strings`."}
+{"event":"finishTableDump","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"wp_icl_strings"}
+{"event":"details","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"Database SQL dump file (wp_icl_strings.sql) size: 25 KB"}
+{"event":"sqlSize","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"25277"}
+{"event":"details","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"93","run":"1.05","mem":"20.98","data":"Dumping database table `wp_icl_translate`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"94","run":"1.05","mem":"20.98","data":"wp_icl_translate"}
+{"event":"details","time":1487069453,"u":"94","run":"1.05","mem":"20.98","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_translate.sql`."}
+{"event":"details","time":1487069453,"u":"94","run":"1.05","mem":"20.98","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"94","run":"1.05","mem":"20.98","data":"wp_icl_translate.sql"}
+{"event":"details","time":1487069453,"u":"94","run":"1.05","mem":"20.61","data":"Got `0` rows from `wp_icl_translate` of `1000` max."}
+{"event":"details","time":1487069453,"u":"94","run":"1.05","mem":"20.63","data":"Dumped `0` rows total from `wp_icl_translate`. No rows remain."}
+{"event":"details","time":1487069453,"u":"94","run":"1.05","mem":"20.63","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"94","run":"1.05","mem":"20.63","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"Finished dumping database table `wp_icl_translate`."}
+{"event":"finishTableDump","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"wp_icl_translate"}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"Database SQL dump file (wp_icl_translate.sql) size: 807 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"807"}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"Dumping database table `wp_icl_translate_job`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"wp_icl_translate_job"}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_translate_job.sql`."}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"94","run":"1.06","mem":"20.63","data":"wp_icl_translate_job.sql"}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.60","data":"Got `0` rows from `wp_icl_translate_job` of `1000` max."}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.62","data":"Dumped `0` rows total from `wp_icl_translate_job`. No rows remain."}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.62","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"94","run":"1.06","mem":"20.62","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"Finished dumping database table `wp_icl_translate_job`."}
+{"event":"finishTableDump","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"wp_icl_translate_job"}
+{"event":"details","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"Database SQL dump file (wp_icl_translate_job.sql) size: 562 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"562"}
+{"event":"details","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"Dumping database table `wp_icl_translation_batches`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"wp_icl_translation_batches"}
+{"event":"details","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_translation_batches.sql`."}
+{"event":"details","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"95","run":"1.06","mem":"20.62","data":"wp_icl_translation_batches.sql"}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.60","data":"Got `0` rows from `wp_icl_translation_batches` of `1000` max."}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"Dumped `0` rows total from `wp_icl_translation_batches`. No rows remain."}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"Finished dumping database table `wp_icl_translation_batches`."}
+{"event":"finishTableDump","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"wp_icl_translation_batches"}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"Database SQL dump file (wp_icl_translation_batches.sql) size: 471 Bytes"}
+{"event":"sqlSize","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"471"}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"Dumping database table `wp_icl_translation_status`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"wp_icl_translation_status"}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_translation_status.sql`."}
+{"event":"details","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"95","run":"1.07","mem":"20.61","data":"wp_icl_translation_status.sql"}
+{"event":"details","time":1487069453,"u":"96","run":"1.07","mem":"20.78","data":"Got `48` rows from `wp_icl_translation_status` of `1000` max."}
+{"event":"details","time":1487069453,"u":"96","run":"1.07","mem":"20.81","data":"Dumped `48` rows total from `wp_icl_translation_status`. No rows remain."}
+{"event":"details","time":1487069453,"u":"96","run":"1.07","mem":"20.81","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"Finished dumping database table `wp_icl_translation_status`."}
+{"event":"finishTableDump","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"wp_icl_translation_status"}
+{"event":"details","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"Database SQL dump file (wp_icl_translation_status.sql) size: 7 KB"}
+{"event":"sqlSize","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"7049"}
+{"event":"details","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"Dumping database table `wp_icl_translations`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"wp_icl_translations"}
+{"event":"details","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_icl_translations.sql`."}
+{"event":"details","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"96","run":"1.08","mem":"20.81","data":"wp_icl_translations.sql"}
+{"event":"details","time":1487069453,"u":"97","run":"1.08","mem":"20.98","data":"Got `182` rows from `wp_icl_translations` of `1000` max."}
+{"event":"details","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"Dumped `182` rows total from `wp_icl_translations`. No rows remain."}
+{"event":"details","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"Finished dumping database table `wp_icl_translations`."}
+{"event":"finishTableDump","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"wp_icl_translations"}
+{"event":"details","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"Database SQL dump file (wp_icl_translations.sql) size: 18 KB"}
+{"event":"sqlSize","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"18011"}
+{"event":"details","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"Dumping database table `wp_links`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"97","run":"1.09","mem":"20.99","data":"wp_links"}
+{"event":"details","time":1487069453,"u":"98","run":"1.09","mem":"20.99","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_links.sql`."}
+{"event":"details","time":1487069453,"u":"98","run":"1.09","mem":"20.99","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"98","run":"1.09","mem":"20.99","data":"wp_links.sql"}
+{"event":"details","time":1487069453,"u":"98","run":"1.09","mem":"20.60","data":"Got `0` rows from `wp_links` of `1000` max."}
+{"event":"details","time":1487069453,"u":"98","run":"1.09","mem":"20.63","data":"Dumped `0` rows total from `wp_links`. No rows remain."}
+{"event":"details","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"Pinging mysql."}
+{"event":"details","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"Database Server connection status verified."}
+{"event":"details","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"Finished dumping database table `wp_links`."}
+{"event":"finishTableDump","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"wp_links"}
+{"event":"details","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"Database SQL dump file (wp_links.sql) size: 1 KB"}
+{"event":"sqlSize","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"1138"}
+{"event":"details","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"About to flush..."}
+{"event":"details","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"Dumping database table `wp_options`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"wp_options"}
+{"event":"details","time":1487069453,"u":"98","run":"1.10","mem":"20.63","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_options.sql`."}
+{"event":"details","time":1487069453,"u":"99","run":"1.10","mem":"20.63","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069453,"u":"99","run":"1.10","mem":"20.63","data":"wp_options.sql"}
+{"event":"details","time":1487069453,"u":"99","run":"1.11","mem":"21.14","data":"Got `334` rows from `wp_options` of `1000` max."}
+{"event":"details","time":1487069454,"u":"03","run":"1.14","mem":"21.15","data":"Dumped `334` rows total from `wp_options`. No rows remain."}
+{"event":"details","time":1487069454,"u":"03","run":"1.14","mem":"21.15","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"03","run":"1.14","mem":"21.15","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"03","run":"1.14","mem":"21.15","data":"Finished dumping database table `wp_options`."}
+{"event":"details","time":1487069454,"u":"03","run":"1.35","mem":"22.00","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"finishTableDump","time":1487069454,"u":"03","run":"1.14","mem":"21.15","data":"wp_options"}
+{"event":"details","time":1487069454,"u":"03","run":"1.35","mem":"22.00","data":"Waiting for function `backup_create_database_dump` to complete. Started 0.79128098487854 seconds ago."}
+{"event":"details","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"Database SQL dump file (wp_options.sql) size: 1.05 MB"}
+{"event":"sqlSize","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"1099192"}
+{"event":"details","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"Dumping database table `wp_redirection_404`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"message","time":1487069454,"u":"03","run":"1.35","mem":"22.22","data":"Pong! Server replied."}
+{"event":"startTableDump","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"wp_redirection_404"}
+{"event":"details","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_redirection_404.sql`."}
+{"event":"details","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"03","run":"1.15","mem":"21.15","data":"wp_redirection_404.sql"}
+{"event":"details","time":1487069454,"u":"07","run":"1.19","mem":"22.64","data":"Got `1000` rows from `wp_redirection_404` of `1000` max."}
+{"event":"details","time":1487069454,"u":"10","run":"1.21","mem":"22.65","data":"Working... Dumped `500` rows from `wp_redirection_404` so far."}
+{"event":"details","time":1487069454,"u":"12","run":"1.23","mem":"22.65","data":"Working... Dumped `1000` rows from `wp_redirection_404` so far."}
+{"event":"details","time":1487069454,"u":"12","run":"1.24","mem":"22.65","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"12","run":"1.24","mem":"22.65","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"13","run":"1.24","mem":"21.27","data":"Got `327` rows from `wp_redirection_404` of `1000` max."}
+{"event":"details","time":1487069454,"u":"14","run":"1.26","mem":"21.29","data":"Dumped `1327` rows total from `wp_redirection_404`. No rows remain."}
+{"event":"details","time":1487069454,"u":"14","run":"1.26","mem":"21.29","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"15","run":"1.26","mem":"21.29","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"15","run":"1.26","mem":"21.28","data":"Finished dumping database table `wp_redirection_404`."}
+{"event":"finishTableDump","time":1487069454,"u":"15","run":"1.26","mem":"21.28","data":"wp_redirection_404"}
+{"event":"details","time":1487069454,"u":"15","run":"1.26","mem":"21.28","data":"Database SQL dump file (wp_redirection_404.sql) size: 296 KB"}
+{"event":"sqlSize","time":1487069454,"u":"15","run":"1.26","mem":"21.28","data":"303299"}
+{"event":"details","time":1487069454,"u":"15","run":"1.26","mem":"21.28","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"15","run":"1.26","mem":"21.28","data":"Dumping database table `wp_redirection_groups`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"15","run":"1.27","mem":"21.28","data":"wp_redirection_groups"}
+{"event":"details","time":1487069454,"u":"15","run":"1.27","mem":"21.28","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_redirection_groups.sql`."}
+{"event":"details","time":1487069454,"u":"15","run":"1.27","mem":"21.28","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"15","run":"1.27","mem":"21.29","data":"wp_redirection_groups.sql"}
+{"event":"details","time":1487069454,"u":"15","run":"1.27","mem":"20.61","data":"Got `6` rows from `wp_redirection_groups` of `1000` max."}
+{"event":"details","time":1487069454,"u":"15","run":"1.27","mem":"20.63","data":"Dumped `6` rows total from `wp_redirection_groups`. No rows remain."}
+{"event":"details","time":1487069454,"u":"16","run":"1.27","mem":"20.63","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"16","run":"1.27","mem":"20.63","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"16","run":"1.27","mem":"20.63","data":"Finished dumping database table `wp_redirection_groups`."}
+{"event":"finishTableDump","time":1487069454,"u":"16","run":"1.27","mem":"20.63","data":"wp_redirection_groups"}
+{"event":"details","time":1487069454,"u":"16","run":"1.27","mem":"20.63","data":"Database SQL dump file (wp_redirection_groups.sql) size: 1 KB"}
+{"event":"sqlSize","time":1487069454,"u":"16","run":"1.27","mem":"20.63","data":"1192"}
+{"event":"details","time":1487069454,"u":"16","run":"1.28","mem":"20.63","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"16","run":"1.28","mem":"20.63","data":"Dumping database table `wp_redirection_items`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"16","run":"1.28","mem":"20.63","data":"wp_redirection_items"}
+{"event":"details","time":1487069454,"u":"16","run":"1.28","mem":"20.63","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_redirection_items.sql`."}
+{"event":"details","time":1487069454,"u":"16","run":"1.28","mem":"20.63","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"16","run":"1.28","mem":"20.63","data":"wp_redirection_items.sql"}
+{"event":"details","time":1487069454,"u":"18","run":"1.29","mem":"22.97","data":"Got `617` rows from `wp_redirection_items` of `1000` max."}
+{"event":"details","time":1487069454,"u":"21","run":"1.33","mem":"22.99","data":"Working... Dumped `500` rows from `wp_redirection_items` so far."}
+{"event":"details","time":1487069454,"u":"22","run":"1.34","mem":"22.99","data":"Dumped `617` rows total from `wp_redirection_items`. No rows remain."}
+{"event":"details","time":1487069454,"u":"22","run":"1.34","mem":"22.99","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"23","run":"1.34","mem":"22.99","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"23","run":"1.34","mem":"22.99","data":"Finished dumping database table `wp_redirection_items`."}
+{"event":"finishTableDump","time":1487069454,"u":"23","run":"1.34","mem":"22.99","data":"wp_redirection_items"}
+{"event":"details","time":1487069454,"u":"23","run":"1.34","mem":"22.99","data":"Database SQL dump file (wp_redirection_items.sql) size: 129 KB"}
+{"event":"sqlSize","time":1487069454,"u":"23","run":"1.34","mem":"22.99","data":"132316"}
+{"event":"details","time":1487069454,"u":"23","run":"1.34","mem":"22.99","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"23","run":"1.34","mem":"22.99","data":"Dumping database table `wp_redirection_logs`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"23","run":"1.35","mem":"22.99","data":"wp_redirection_logs"}
+{"event":"details","time":1487069454,"u":"23","run":"1.35","mem":"22.99","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_redirection_logs.sql`."}
+{"event":"details","time":1487069454,"u":"23","run":"1.35","mem":"22.99","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"23","run":"1.35","mem":"22.99","data":"wp_redirection_logs.sql"}
+{"event":"details","time":1487069454,"u":"24","run":"1.35","mem":"20.61","data":"Got `1` rows from `wp_redirection_logs` of `1000` max."}
+{"event":"details","time":1487069454,"u":"24","run":"1.35","mem":"20.63","data":"Dumped `1` rows total from `wp_redirection_logs`. No rows remain."}
+{"event":"details","time":1487069454,"u":"24","run":"1.35","mem":"20.63","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"24","run":"1.35","mem":"20.63","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"24","run":"1.35","mem":"20.63","data":"Finished dumping database table `wp_redirection_logs`."}
+{"event":"finishTableDump","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"wp_redirection_logs"}
+{"event":"details","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"Database SQL dump file (wp_redirection_logs.sql) size: 1 KB"}
+{"event":"sqlSize","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"1233"}
+{"event":"details","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"Dumping database table `wp_term_relationships`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"wp_term_relationships"}
+{"event":"details","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_term_relationships.sql`."}
+{"event":"details","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"24","run":"1.36","mem":"20.63","data":"wp_term_relationships.sql"}
+{"event":"details","time":1487069454,"u":"25","run":"1.36","mem":"20.76","data":"Got `111` rows from `wp_term_relationships` of `1000` max."}
+{"event":"details","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"Dumped `111` rows total from `wp_term_relationships`. No rows remain."}
+{"event":"details","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"Finished dumping database table `wp_term_relationships`."}
+{"event":"finishTableDump","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"wp_term_relationships"}
+{"event":"details","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"Database SQL dump file (wp_term_relationships.sql) size: 7 KB"}
+{"event":"sqlSize","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"7393"}
+{"event":"details","time":1487069454,"u":"25","run":"1.37","mem":"20.76","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"26","run":"1.37","mem":"20.76","data":"Dumping database table `wp_term_taxonomy`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"26","run":"1.37","mem":"20.76","data":"wp_term_taxonomy"}
+{"event":"details","time":1487069454,"u":"26","run":"1.37","mem":"20.76","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_term_taxonomy.sql`."}
+{"event":"details","time":1487069454,"u":"26","run":"1.37","mem":"20.76","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"26","run":"1.37","mem":"20.76","data":"wp_term_taxonomy.sql"}
+{"event":"details","time":1487069454,"u":"26","run":"1.38","mem":"20.67","data":"Got `33` rows from `wp_term_taxonomy` of `1000` max."}
+{"event":"details","time":1487069454,"u":"26","run":"1.38","mem":"20.68","data":"Dumped `33` rows total from `wp_term_taxonomy`. No rows remain."}
+{"event":"details","time":1487069454,"u":"26","run":"1.38","mem":"20.68","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"26","run":"1.38","mem":"20.68","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"26","run":"1.38","mem":"20.68","data":"Finished dumping database table `wp_term_taxonomy`."}
+{"event":"finishTableDump","time":1487069454,"u":"26","run":"1.38","mem":"20.68","data":"wp_term_taxonomy"}
+{"event":"details","time":1487069454,"u":"26","run":"1.38","mem":"20.68","data":"Database SQL dump file (wp_term_taxonomy.sql) size: 3 KB"}
+{"event":"sqlSize","time":1487069454,"u":"26","run":"1.38","mem":"20.68","data":"3433"}
+{"event":"details","time":1487069454,"u":"27","run":"1.38","mem":"20.68","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"27","run":"1.38","mem":"20.68","data":"Dumping database table `wp_termmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"27","run":"1.38","mem":"20.68","data":"wp_termmeta"}
+{"event":"details","time":1487069454,"u":"27","run":"1.38","mem":"20.68","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_termmeta.sql`."}
+{"event":"details","time":1487069454,"u":"27","run":"1.38","mem":"20.68","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"27","run":"1.38","mem":"20.68","data":"wp_termmeta.sql"}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.60","data":"Got `0` rows from `wp_termmeta` of `1000` max."}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"Dumped `0` rows total from `wp_termmeta`. No rows remain."}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"Finished dumping database table `wp_termmeta`."}
+{"event":"finishTableDump","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"wp_termmeta"}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"Database SQL dump file (wp_termmeta.sql) size: 513 Bytes"}
+{"event":"sqlSize","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"513"}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"27","run":"1.39","mem":"20.61","data":"Dumping database table `wp_terms`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"28","run":"1.39","mem":"20.61","data":"wp_terms"}
+{"event":"details","time":1487069454,"u":"28","run":"1.39","mem":"20.61","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_terms.sql`."}
+{"event":"details","time":1487069454,"u":"28","run":"1.39","mem":"20.61","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"28","run":"1.39","mem":"20.61","data":"wp_terms.sql"}
+{"event":"details","time":1487069454,"u":"28","run":"1.39","mem":"20.65","data":"Got `33` rows from `wp_terms` of `1000` max."}
+{"event":"details","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"Dumped `33` rows total from `wp_terms`. No rows remain."}
+{"event":"details","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"Finished dumping database table `wp_terms`."}
+{"event":"finishTableDump","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"wp_terms"}
+{"event":"details","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"Database SQL dump file (wp_terms.sql) size: 3 KB"}
+{"event":"sqlSize","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"2954"}
+{"event":"details","time":1487069454,"u":"28","run":"1.40","mem":"20.66","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"29","run":"1.40","mem":"20.66","data":"Dumping database table `wp_usermeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"29","run":"1.40","mem":"20.66","data":"wp_usermeta"}
+{"event":"details","time":1487069454,"u":"29","run":"1.40","mem":"20.66","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_usermeta.sql`."}
+{"event":"details","time":1487069454,"u":"29","run":"1.40","mem":"20.66","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"29","run":"1.40","mem":"20.66","data":"wp_usermeta.sql"}
+{"event":"details","time":1487069454,"u":"29","run":"1.41","mem":"20.80","data":"Got `127` rows from `wp_usermeta` of `1000` max."}
+{"event":"details","time":1487069454,"u":"30","run":"1.41","mem":"20.81","data":"Dumped `127` rows total from `wp_usermeta`. No rows remain."}
+{"event":"details","time":1487069454,"u":"30","run":"1.41","mem":"20.81","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"30","run":"1.41","mem":"20.81","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"30","run":"1.41","mem":"20.81","data":"Finished dumping database table `wp_usermeta`."}
+{"event":"finishTableDump","time":1487069454,"u":"30","run":"1.41","mem":"20.81","data":"wp_usermeta"}
+{"event":"details","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"Database SQL dump file (wp_usermeta.sql) size: 24 KB"}
+{"event":"sqlSize","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"24073"}
+{"event":"details","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"Dumping database table `wp_users`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"wp_users"}
+{"event":"details","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"SQL dump file `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/kemz6fjy9r\/wp_users.sql`."}
+{"event":"details","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 134 seconds."}
+{"event":"sqlFile","time":1487069454,"u":"30","run":"1.42","mem":"20.81","data":"wp_users.sql"}
+{"event":"details","time":1487069454,"u":"31","run":"1.42","mem":"20.61","data":"Got `4` rows from `wp_users` of `1000` max."}
+{"event":"details","time":1487069454,"u":"31","run":"1.42","mem":"20.64","data":"Dumped `4` rows total from `wp_users`. No rows remain."}
+{"event":"details","time":1487069454,"u":"31","run":"1.42","mem":"20.64","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"31","run":"1.42","mem":"20.64","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"31","run":"1.42","mem":"20.64","data":"Finished dumping database table `wp_users`."}
+{"event":"finishTableDump","time":1487069454,"u":"31","run":"1.42","mem":"20.64","data":"wp_users"}
+{"event":"details","time":1487069454,"u":"31","run":"1.42","mem":"20.64","data":"Database SQL dump file (wp_users.sql) size: 2 KB"}
+{"event":"sqlSize","time":1487069454,"u":"31","run":"1.43","mem":"20.64","data":"1790"}
+{"event":"details","time":1487069454,"u":"31","run":"1.43","mem":"20.64","data":"About to flush..."}
+{"event":"details","time":1487069454,"u":"31","run":"1.43","mem":"20.63","data":"Finished PHP based SQL dump method. Ran for 1.091 sec."}
+{"event":"details","time":1487069454,"u":"31","run":"1.43","mem":"20.62","data":"mysqlbuddy: Dump method `php` completed successfully."}
+{"event":"milestone","time":1487069454,"u":"31","run":"1.43","mem":"20.62","data":"finish_database"}
+{"event":"message","time":1487069454,"u":"31","run":"1.43","mem":"20.62","data":"Database dump procedure succeeded."}
+{"event":"details","time":1487069454,"u":"31","run":"1.43","mem":"20.63","data":"Fileoptions `kemz6fjy9r.txt` saved. 8412 bytes written."}
+{"event":"details","time":1487069454,"u":"32","run":"1.43","mem":"20.62","data":"Finished function `backup_create_database_dump`. Peak memory usage: 24.171 MB with BackupBuddy v7.2.2.1"}
+{"event":"finishFunction","time":1487069454,"u":"32","run":"1.43","mem":"20.62","data":"{\"function\":\"backup_create_database_dump\"}"}
+{"event":"details","time":1487069454,"u":"32","run":"1.43","mem":"20.62","data":"-----"}
+{"event":"details","time":1487069454,"u":"32","run":"1.43","mem":"20.62","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1487069454,"u":"32","run":"1.43","mem":"20.62","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1487069454,"u":"32","run":"1.43","mem":"20.62","data":"Scheduling Cron for `kemz6fjy9r`."}
+{"event":"details","time":1487069454,"u":"32","run":"1.44","mem":"20.62","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1487069454,"u":"32","run":"1.44","mem":"20.62","data":"Pinging mysql."}
+{"event":"details","time":1487069454,"u":"32","run":"1.44","mem":"20.62","data":"Database Server connection status verified."}
+{"event":"details","time":1487069454,"u":"32","run":"1.44","mem":"20.62","data":"Scheduling next step to run at `1487065854` (localized time: Feb 14, 2017 10:50:54 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `kemz6fjy9r`."}
+{"event":"details","time":1487069454,"u":"33","run":"1.44","mem":"20.59","data":"Next step scheduled."}
+{"event":"startAction","time":1487069454,"u":"33","run":"1.44","mem":"20.59","data":"cronPass"}
+{"event":"cronParams","time":1487069454,"u":"33","run":"1.44","mem":"20.59","data":"eyJ0aW1lIjoxNDg3MDY1ODU0LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbImtlbXo2Zmp5OXIiXX0="}
+{"event":"details","time":1487069454,"u":"33","run":"1.45","mem":"20.58","data":"Not calling spawn_cron()."}
+{"event":"details","time":1487069454,"u":"33","run":"1.45","mem":"20.59","data":"About to run next step (backup_create_database_dump expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1487069454,"u":"33","run":"1.45","mem":"20.58","data":"Completed step function `backup_create_database_dump`."}
+{"event":"details","time":1487069457,"u":"60","run":"1.42","mem":"22.00","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069457,"u":"60","run":"1.42","mem":"22.06","data":"Pong! Server replied."}
+{"event":"details","time":1487069460,"u":"13","run":"0.41","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069460,"u":"13","run":"0.41","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069462,"u":"62","run":"0.38","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069462,"u":"62","run":"0.38","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069464,"u":"98","run":"0.29","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069464,"u":"99","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069467,"u":"44","run":"0.38","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069467,"u":"44","run":"0.38","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069469,"u":"85","run":"0.33","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069469,"u":"85","run":"0.33","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069472,"u":"31","run":"0.38","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069472,"u":"31","run":"0.38","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069474,"u":"74","run":"0.33","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069474,"u":"74","run":"0.34","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069477,"u":"11","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069477,"u":"11","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069479,"u":"63","run":"0.43","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069479,"u":"63","run":"0.44","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069481,"u":"01","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069481,"u":"01","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069484,"u":"49","run":"0.40","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069484,"u":"49","run":"0.40","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069486,"u":"89","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069486,"u":"89","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069489,"u":"27","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069489,"u":"28","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069491,"u":"67","run":"0.31","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069491,"u":"67","run":"0.31","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069494,"u":"13","run":"0.38","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069494,"u":"13","run":"0.38","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069496,"u":"53","run":"0.32","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069496,"u":"53","run":"0.32","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069498,"u":"92","run":"0.29","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069498,"u":"92","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069502,"u":"39","run":"0.29","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069502,"u":"39","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069505,"u":"10","run":"0.34","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069505,"u":"10","run":"0.34","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069507,"u":"50","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069507,"u":"50","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069510,"u":"08","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069510,"u":"08","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069513,"u":"23","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069513,"u":"23","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069516,"u":"21","run":"0.36","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069516,"u":"21","run":"0.36","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069519,"u":"28","run":"0.36","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069519,"u":"28","run":"0.36","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069522,"u":"15","run":"0.31","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069522,"u":"15","run":"0.31","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069525,"u":"24","run":"0.28","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069525,"u":"24","run":"0.28","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069527,"u":"62","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069527,"u":"62","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069530,"u":"05","run":"0.35","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069530,"u":"05","run":"0.35","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069532,"u":"55","run":"0.37","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069532,"u":"55","run":"0.38","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069534,"u":"98","run":"0.35","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069534,"u":"98","run":"0.35","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069537,"u":"43","run":"0.36","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069537,"u":"43","run":"0.36","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069539,"u":"79","run":"0.29","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069539,"u":"80","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069542,"u":"18","run":"0.29","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069542,"u":"18","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069545,"u":"14","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069545,"u":"14","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069548,"u":"23","run":"0.29","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069548,"u":"23","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069551,"u":"18","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069551,"u":"18","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069554,"u":"21","run":"0.28","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069554,"u":"21","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069557,"u":"08","run":"0.31","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069557,"u":"08","run":"0.31","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069559,"u":"53","run":"0.32","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069559,"u":"53","run":"0.32","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069562,"u":"10","run":"0.30","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069562,"u":"10","run":"0.30","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069564,"u":"54","run":"0.34","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069564,"u":"54","run":"0.34","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069567,"u":"15","run":"0.32","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069567,"u":"15","run":"0.33","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069570,"u":"27","run":"0.31","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069570,"u":"27","run":"0.31","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069573,"u":"25","run":"0.39","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069573,"u":"25","run":"0.39","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069576,"u":"13","run":"0.31","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069576,"u":"14","run":"0.31","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069578,"u":"54","run":"0.33","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069578,"u":"54","run":"0.34","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069581,"u":"44","run":"0.67","mem":"22.00","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069581,"u":"44","run":"0.67","mem":"22.00","data":"Pong! Server replied."}
+{"event":"details","time":1487069584,"u":"10","run":"0.36","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069584,"u":"10","run":"0.36","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069586,"u":"57","run":"0.34","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069586,"u":"57","run":"0.34","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069589,"u":"33","run":"0.45","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069589,"u":"33","run":"0.45","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069592,"u":"25","run":"0.45","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069592,"u":"25","run":"0.45","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069595,"u":"29","run":"0.37","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069595,"u":"29","run":"0.37","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069598,"u":"15","run":"0.32","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069598,"u":"15","run":"0.32","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069601,"u":"37","run":"0.40","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069601,"u":"37","run":"0.40","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069604,"u":"22","run":"0.42","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069604,"u":"23","run":"0.42","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069606,"u":"62","run":"0.31","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069606,"u":"62","run":"0.31","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069609,"u":"05","run":"0.33","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069609,"u":"05","run":"0.33","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069611,"u":"63","run":"0.44","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069611,"u":"63","run":"0.45","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069614,"u":"29","run":"0.54","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069614,"u":"29","run":"0.54","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069616,"u":"71","run":"0.32","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069616,"u":"71","run":"0.32","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487069619,"u":"08","run":"0.28","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069619,"u":"08","run":"0.28","mem":"21.92","data":"Pong! Server replied."}
+{"event":"message","time":1487069621,"u":"47","run":"0.29","mem":"21.87","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"details","time":1487069621,"u":"47","run":"0.29","mem":"21.87","data":"Fileoptions instance #30."}
+{"event":"details","time":1487069621,"u":"47","run":"0.29","mem":"21.88","data":"Created fileoptions lock file `kemz6fjy9r.txt.lock` with ID: 58a2d3a5742c11.20391089."}
+{"event":"details","time":1487069621,"u":"47","run":"0.29","mem":"21.91","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1487069621,"u":"47","run":"0.29","mem":"21.91","data":"Archive file not found. Not deleting."}
+{"event":"details","time":1487069621,"u":"47","run":"0.29","mem":"21.91","data":"Backup stopped by user. Any remaining processes or files will time out and be cleaned up by scheduled housekeeping functionality."}
+{"event":"haltScript","time":1487069621,"u":"47","run":"0.29","mem":"21.91","data":""}
+{"event":"details","time":1487069621,"u":"48","run":"0.29","mem":"21.95","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1487069621,"u":"48","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487076044,"u":"24","run":"0.22","mem":"20.34","data":"--- New PHP process."}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Reported PHP execution time - Configured: 30; Original: 600; Current: 600"}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (512M) or over-ridden value"}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Reported PHP memory limits - Configured: 512M; Original: 512M; Current: 512M"}
+{"event":"message","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Running process for serial `kemz6fjy9r`..."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.52","data":"About to load fileoptions data for serial `kemz6fjy9r`."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.53","data":"Fileoptions instance #39."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.53","data":"Created fileoptions lock file `kemz6fjy9r.txt.lock` with ID: 58a2ecbc489912.53690754."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.57","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.57","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1487076044,"u":"30","run":"0.27","mem":"20.57","data":"cronPass"}
+{"event":"message","time":1487076044,"u":"30","run":"0.27","mem":"20.58","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.59","data":"Fileoptions `kemz6fjy9r.txt` saved. 8440 bytes written."}
+{"event":"haltScript","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":""}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `backup_create_database_dump` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `backup_create_database_dump` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `backup_zip_files` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `integrity_check` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.59","data":"Fileoptions `kemz6fjy9r.txt` saved. 8460 bytes written."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Peak memory usage: 21.298 MB"}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"-----"}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1487076044,"u":"31","run":"0.28","mem":"20.58","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1487076044,"u":"31","run":"0.28","mem":"20.58","data":"Cleaning up after backup."}
+{"event":"details","time":1487076044,"u":"31","run":"0.28","mem":"20.58","data":"Removing temp data directory."}
+{"event":"details","time":1487076044,"u":"33","run":"0.31","mem":"20.58","data":"Removing temp zip directory."}
+{"event":"warning","time":1487076044,"u":"33","run":"0.31","mem":"20.58","data":"Backup archive limiting has been skipped since there was an error to avoid deleting potentially good backups to make room for a potentially bad backup."}
+{"event":"details","time":1487076044,"u":"33","run":"0.31","mem":"20.58","data":"Backup stopped so deleting backup ZIP file."}
+{"event":"error","time":1487076044,"u":"34","run":"0.31","mem":"20.58","data":"Unable to delete stopped backup file. You should delete it manually as it may be damaged from stopping mid-backup. File to delete: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_backups\/backup-www_nikkawhisky_eu-2017_02_14-10_50am-full-kemz6fjy9r.zip`."}
+{"event":"details","time":1487076044,"u":"34","run":"0.31","mem":"20.60","data":"Fileoptions `kemz6fjy9r.txt` saved. 8460 bytes written."}
+{"event":"details","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":"Cleaning up any old temporary zip directories in: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"message","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":"Finished cleaning up."}
+{"event":"details","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":"Backup cancellation complete."}
+{"event":"haltScript","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":""}
+{"event":"details","time":1487076044,"u":"35","run":"0.33","mem":"20.59","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => 857uxy8ocm\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
+{"event":"details","time":1487076044,"u":"35","run":"0.33","mem":"20.60","data":"Rescheduled cron for method `php_runtime_test_results` as setting to limit single cron per pass enabled. Details: `Array\n(\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
+{"event":"details","time":1487076044,"u":"36","run":"0.34","mem":"20.60","data":"Rescheduled cron for method `php_memory_test_results` as setting to limit single cron per pass enabled. Details: `Array\n(\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}

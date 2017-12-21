@@ -1,0 +1,41 @@
+{"event":"message","time":1487069621,"u":"48","run":"0.29","mem":"21.92","data":"Pong! Server replied."}
+{"event":"details","time":1487076044,"u":"24","run":"0.22","mem":"20.34","data":"--- New PHP process."}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Reported PHP execution time - Configured: 30; Original: 600; Current: 600"}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (512M) or over-ridden value"}
+{"event":"details","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Reported PHP memory limits - Configured: 512M; Original: 512M; Current: 512M"}
+{"event":"message","time":1487076044,"u":"25","run":"0.22","mem":"20.34","data":"Running process for serial `kemz6fjy9r`..."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.52","data":"About to load fileoptions data for serial `kemz6fjy9r`."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.53","data":"Fileoptions instance #39."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.53","data":"Created fileoptions lock file `kemz6fjy9r.txt.lock` with ID: 58a2ecbc489912.53690754."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.57","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1487076044,"u":"29","run":"0.27","mem":"20.57","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1487076044,"u":"30","run":"0.27","mem":"20.57","data":"cronPass"}
+{"event":"message","time":1487076044,"u":"30","run":"0.27","mem":"20.58","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.59","data":"Fileoptions `kemz6fjy9r.txt` saved. 8440 bytes written."}
+{"event":"haltScript","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":""}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `backup_create_database_dump` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `backup_create_database_dump` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `backup_zip_files` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Step `integrity_check` flagged for skipping. Skipping."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.59","data":"Fileoptions `kemz6fjy9r.txt` saved. 8460 bytes written."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Peak memory usage: 21.298 MB"}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"-----"}
+{"event":"details","time":1487076044,"u":"30","run":"0.28","mem":"20.58","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1487076044,"u":"31","run":"0.28","mem":"20.58","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1487076044,"u":"31","run":"0.28","mem":"20.58","data":"Cleaning up after backup."}
+{"event":"details","time":1487076044,"u":"31","run":"0.28","mem":"20.58","data":"Removing temp data directory."}
+{"event":"details","time":1487076044,"u":"33","run":"0.31","mem":"20.58","data":"Removing temp zip directory."}
+{"event":"warning","time":1487076044,"u":"33","run":"0.31","mem":"20.58","data":"Backup archive limiting has been skipped since there was an error to avoid deleting potentially good backups to make room for a potentially bad backup."}
+{"event":"details","time":1487076044,"u":"33","run":"0.31","mem":"20.58","data":"Backup stopped so deleting backup ZIP file."}
+{"event":"error","time":1487076044,"u":"34","run":"0.31","mem":"20.58","data":"Unable to delete stopped backup file. You should delete it manually as it may be damaged from stopping mid-backup. File to delete: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_backups\/backup-www_nikkawhisky_eu-2017_02_14-10_50am-full-kemz6fjy9r.zip`."}
+{"event":"details","time":1487076044,"u":"34","run":"0.31","mem":"20.60","data":"Fileoptions `kemz6fjy9r.txt` saved. 8460 bytes written."}
+{"event":"details","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":"Cleaning up any old temporary zip directories in: `\/data\/www\/lmdw\/nikkawhisky_eu\/prod\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"message","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":"Finished cleaning up."}
+{"event":"details","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":"Backup cancellation complete."}
+{"event":"haltScript","time":1487076044,"u":"34","run":"0.32","mem":"20.59","data":""}
+{"event":"details","time":1487076044,"u":"35","run":"0.33","mem":"20.59","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => 857uxy8ocm\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
+{"event":"details","time":1487076044,"u":"35","run":"0.33","mem":"20.60","data":"Rescheduled cron for method `php_runtime_test_results` as setting to limit single cron per pass enabled. Details: `Array\n(\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
+{"event":"details","time":1487076044,"u":"36","run":"0.34","mem":"20.60","data":"Rescheduled cron for method `php_memory_test_results` as setting to limit single cron per pass enabled. Details: `Array\n(\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}

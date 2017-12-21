@@ -1,0 +1,270 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+
+/* règle les espaces entre tous les éléments */
+body p{padding-top:15px;padding-bottom:15px;}
+body h1, body h2, body h3, body h4, body h5 , body h6{padding-top:15px;padding-bottom:15px;}
+.vc_row {padding-top:30px;padding-bottom:30px;}
+.home .vc_row {padding-top:0px!important;padding-bottom:0px!important;}
+
+/* règle le single article header et le single portfolio pour titre avec image par défaut */
+.single .title_outer{display:none!important;}
+.single .title_holder{display:none!important;}
+.single .title{height:180px!important;}
+.single .container{padding-top:25px!important;}
+
+/* special single post (article) */
+.single .post_content_holder{padding-top:180px;}
+.single .sidebar{padding-top:180px;}
+
+/* special responsive mobile version */
+@media only screen and (max-width: 1000px){
+.single .post_content_holder{padding-top:50px;}
+.single .sidebar{padding-top:50px;}
+}
+
+
+
+/* white config pour css typo blanc */
+.white p, .white h1, .white h2, .white h3, .white h4, .white h5, .white h6{color:#ffffff;}
+.white p a, .white h1 a, .white h2 a, .white h3 a, .white h4 a, .white h5 a, .white h6 a{color:#b58300;}
+.white h1 a:hover, .white h2 a:hover, .white h3 a:hover, .white h4 a:hover, .white h5 a:hover, .white h6 a:hover{color:#fff!important;}
+
+/* dates */
+.whitedate h4 {font-size:72px;color:#ffffff;}
+.whitedateblack h4 {font-size:72px;}
+
+/* masque navigation des portfolios */
+.portfolio_navigation{display:none!important;}
+
+/* language selector dans le menu */
+.wpml-ls-sidebars-header_right{
+background-color:transparent!important;
+}
+
+.wpml-ls-sidebars-header_right .wpml-ls-current-language > a{
+ background-color:transparent!important;
+ padding-top:10px;
+}
+
+.wpml-ls-sidebars-header_right a {
+background-color:transparent!important;
+}
+
+.wpml-ls-sidebars-header_right a:hover {
+background-color:transparent!important;
+color:#ddd!important;
+}
+
+
+.wpml-ls-legacy-dropdown a {
+ border:0 solid #CDCDCD;
+}
+
+#nav-menu-item-1065 a{color:#d4b35e!important;font-size:10px;}
+/* pour version FR >>>  #nav-menu-item-967 a{color:#d4b35e!important;font-size:10px;} */
+
+/* masque les catégories portfolio slider */
+.project_category{display:none!important;}
+
+
+/* Fixe le content menu */
+.full_width nav.content_menu.fixed{top:80px!important;}
+
+/* couleur du menu fixed avec les ancres*/
+.full_width nav.content_menu.fixed {
+    /*background-color: #b58300!important;*/
+    background-image:url('/wp-content/uploads/2016/08/bg-sousmenu.jpg');
+}
+
+.full_width nav.content_menu.fixed ul li a {
+    color: #ffffff;
+}
+.full_width nav.content_menu.fixed ul li a:hover {
+    color: #000000;
+}
+.full_width nav.content_menu.fixed ul li.active a {
+    color: #000000!important;
+}
+
+
+/*Widget footer Buy Nikka*/
+.bg-buy{background-image:url('/wp-content/uploads/2016/08/bg-sousmenu.jpg');padding:50px!important;text-align:center;}
+.bg-buy h3 a{color:#b58300!important;}
+.bg-buy h3 a:hover{color:#fff!important;}
+
+/*Slide de homepage, masque les catégories dans le portfolio slider A REGLER MARCHE PAS */
+.projects_holder article span.text_holder span span.text_inner .project_category {display:none!important;}
+
+
+/*masque le sous menu en mobile */
+@media only screen and (max-width: 1000px){
+nav.content_menu .nav_select_menu {
+    display: none!important;
+}}
+
+/*custom la sous nav sur mobile */
+nav.mobile_menu ul li a {
+    font-size: 13px;
+    font-weight: 700!important;
+    color: #888;
+    padding: 10px 0;
+    display: block;
+    position: relative;
+    text-transform: uppercase!important;
+    line-height: 26px;
+    letter-spacing: 0;
+}
+
+/*plié déplié */
+.more_facts_button .more_facts_button_text {
+    font-size: 27px;
+}
+
+
+/* CONTENT WARNING SKIN */
+.cwv3_dialog {
+    border: 2px solid #c4a358;
+    /*background-image:url("/wp-content/uploads/2016/09/subtle_white_mini_waves.png");*/
+    background-color: #fff;
+    max-width: 50%;
+    max-height: 90%;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    -webkit-box-shadow: 2px 11px 48px #000;
+    -moz-box-shadow: 2px 11px 48px #000;
+    box-shadow: 2px 11px 48px #000;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.cwv3_dialog .cwv3_title {
+    color: #b58300;
+    font-weight: 700;
+    text-align: center;
+    background: transparent;
+    margin-bottom: .25em;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+.cwv3_dialog div {
+    padding: 1em;
+}
+
+.cwv3_dialog .cwv3_content p {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cwv3_dialog .cwv3_btns {
+    background: transparent;
+    bottom: 0;
+    overflow: hidden;
+    padding: .45em .75em;
+}
+
+.cwv3_dialog .cwv3_btns .cwv3_enter a {
+    background-color: #b58300;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+
+.cwv3_dialog .cwv3_btns .cwv3_exit a {
+    background-color: #666;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.cwv3_dialog .cwv3_btns .cwv3_exit{float:left}
+.cwv3_dialog .cwv3_btns .cwv3_enter{float:right}
+
+
+/* blog news single */
+.blog_holder.blog_single article h2 a {
+    font-weight:700!important;
+}
+
+.post_info{display:none!important;}
+
+.q_masonry_blog_post_info{display:none!important;}
+
+.linkslide{font-family:'Raleway', sans-serif;text-transform:uppercase;font-style:normal;font-weight:700!important;}
+.linkslide:hover{font-family:'Raleway', sans-serif;color:#b58300!important;text-transform:uppercase;font-style:normal;}
+
+
+.carousel-control .next_nav, .carousel-control .prev_nav{border:0px!important;}
+
+.thumb flip img{width:;50px}
+
+.linkhome-white{font-family:'Raleway', sans-serif;color:#fff!important;text-transform:uppercase;font-style:normal;font-weight:700!important;}
+.linkhome-white:hover{font-family:'Raleway', sans-serif;color:#b58300!important;text-transform:uppercase;font-style:normal;}
+
+.post_info_author{display:none!important;}
+
+.header_top .header-widget{letter-spacing:5px;font-size:11px;color:#ccc;text-transform:uppercase!important;font-weight:400;}
+
+.header_top .header-widget a{font-size:11px;color:#ccc!important;text-transform:uppercase!important;}
+
+@media only screen and (max-width: 960px){
+.light:not(.sticky):not(.scrolled) .header-widget, .dark:not(.sticky):not(.scrolled) .header-widget {color:#000!important;}
+.light:not(.sticky):not(.scrolled) .header-widget #lang_sel>ul>li>a {color:#000!important;}
+.dark:not(.sticky):not(.scrolled) .header-widget #lang_sel>ul>li>a {color:#000!important;}
+.light:not(.sticky):not(.scrolled) .header-widget #lang_sel>ul>li>a span {color:#000!important;}
+.dark:not(.sticky):not(.scrolled) .header-widget #lang_sel>ul>li>a span {color:#000!important;}
+}
+
+.qode_print{display:none!important;}
+
+@media only screen and (max-width: 960px){
+section.parallax_section_holder {
+    background-position: 20% 20%!important;
+}}
+
+.blog_holder article .post_text h2 .date {display:none!important;}
+
+.portfolio_slides .hover_feature_holder_inner .qbutton{display:none!important;}
+
+.social_share_list_holder span{display:none!important;}
+
+.feature_holder_icons .qbutton{display:none!important;}
+
+/* optimisation responsive */
+@media screen and (max-width: 480px){
+.cwv3_dialog .cwv3_btns div {
+    width: 80%!important;
+    display: inline-block;
+}
+.cwv3_enter, .cwv3_exit {
+    float: none!important;}
+}
+
+@media screen and (max-width: 768px){
+.light:not(.sticky):not(.scrolled) .header-widget span {color:#000!important;}
+.header_top .right .inner>div {float: none;}
+.vc_column_container>.vc_column-inner {border: 0px !important;}
+}
+
+
+.hidden{display:none!important;}
+
+.more_facts_inner {
+    padding: 70px 0 0;
+    margin-top: -50px;
+}
